@@ -1,0 +1,15 @@
+Set up for gcc or Mingw.
+
+[]: # Language: markdown
+[]: # Path: Learning_Basic_c++\Note_Things
+https://www.w3schools.com/cpp/cpp_getstarted.asp
+https://code.visualstudio.com/docs/cpp/config-mingw
+
+Strings:
+To use strings, you must include an additional header file in the source code, the <string> library:
+// Include the string library
+#include <string>
+
+Tip: You might see some C++ programs that use the size() function to get the length of a string. This is just an alias of length(). It is completely up to you if you want to use length() or size():
+Get the Size of an Array
+To get the size of an array, you can use the sizeof() operator:
